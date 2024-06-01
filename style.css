@@ -701,6 +701,9 @@ hr{
     /*--submit form--*/
 
 
+    /*--submit form--*/
+
+
     .container{
         max-width: 20.6em;
     
@@ -710,6 +713,18 @@ hr{
     .bottom{
         font-size: .5em;
 
+    }
+    .form-title{
+        font-size: 1em;
+    }
+    .user-input-box{
+        padding-bottom: 0;
+    }
+    .user-input-box label{
+        font-size: 1em;
+    }
+    .form-submit-btn{
+        margin: 0;
     }
 }
 
