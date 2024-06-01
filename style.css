@@ -629,7 +629,7 @@ hr{
 
     .about-text p{
         font-size: 0.6rem;
-        padding: 1em; 
+        padding: 0.6em; 
     }
 /*---services---*/
     .img-os{
@@ -726,13 +726,4 @@ hr{
     .form-submit-btn{
         margin: 0;
     }
-}
-
-@media screen and (max-width: 24em){
-    .about-text p{
-        font-size: 1.1rem;
-        padding: 1em;
-    
-    }
-    
 }
