@@ -544,7 +544,7 @@ hr{
 
 /*--BREAKPOINT--*/
 
-@media screen and (max-width: 48em){
+@media screen and (max-width: 64em){
 
     .logo img{
         width: 11em;
