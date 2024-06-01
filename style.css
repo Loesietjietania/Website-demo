@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    height: 100vh;
+    height: 95vh;
     background: url(Images/another\ 1.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,7 +32,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.3rem 10%;
+    padding: 1.3em 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,13 +54,13 @@ body{
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 2.5rem;
+    margin-left: 2.5em;
 }
 #check{
     display: none;
 }
 .logo img{
-    width: 200px;
+    width: 180px;
     text-decoration: none;
     font-weight: 700;
 
@@ -86,10 +86,10 @@ body{
 }
 
 .sect1{
-    margin: 100px;
+    margin: 6.25em;
 }
 .paragraph1{
-    padding: 30px;
+    padding: 2em;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -103,8 +103,8 @@ body{
 .sect1 p{
     color: #fff;
     margin-left: 10%;
-    margin-bottom: 20px;
-    font-size: 40px;
+    margin-bottom: 1.25em;
+    font-size: 2.5rem;
     font-family: 'helvetica';
     text-shadow: -5px 5px 2px #000000;
     
@@ -114,7 +114,7 @@ body{
 }
 
 .sect1 button{
-    font-size: 17px;
+    font-size: 1.1rem;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -154,7 +154,7 @@ hr{
 }
 
 .img-about{
-    width: 300px;
+    width: 18.75rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -175,7 +175,7 @@ hr{
   }
 
 .about-text p{
-    font-size: 30px;
+    font-size: 2rem;
     padding: 20px;
     color: #fff;
     font-family: 'helvetica';
@@ -188,12 +188,12 @@ hr{
 .sect3{
     color: #fff;
     text-shadow: -1px 3px 2px #000000;
-    font-size: 20px;
+    font-size: 1.25rem;
     box-sizing: none;
 }
 
 .img-os{
-    width: 350px;
+    width: 19rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -231,14 +231,15 @@ hr{
 .ads-img{
     margin-left: 50px;
     align-self: right;
-    width: 400px;
+    max-width: 17em;
+    height: auto;
 }
 
 .ads-text{
     text-align: justify;
     float: left;
     overflow: hidden;
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
 
@@ -274,13 +275,14 @@ hr{
 .web-img{
     margin-right: 50px;
     align-self: left;
-    width: 400px;
+    max-width: 17em;
+    height: auto;
 }
 .web-text{
     text-align: justify;
     float: right;
     overflow: hidden;
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
 
@@ -300,10 +302,14 @@ hr{
     align-items: center;
     justify-content: center;
 }
-
+.content-items{
+    align-items: center;
+    justify-content: center;
+}
 .content-head{
     display: flex;
     align-items: center;
+    text-align: left;
     margin: 10px;
 }
 .content-head h1{
@@ -312,16 +318,16 @@ hr{
 .content-img{
     margin-left: 50px;
     align-self: right;
-    width: 400px;
+    max-width: 17em;
+    height: auto;
 }
 .content-text{
     text-align: justify;
     float: left;
     overflow: hidden;
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
-
 
 .manage{
     margin-left: 10%;
@@ -339,7 +345,10 @@ hr{
     align-items: center;
     justify-content: center;
 }
-
+.manage-items{
+    align-items: center;
+    justify-content: center;
+}
 .manage-head{
     display: flex;
     align-items: center;
@@ -351,206 +360,28 @@ hr{
 .manage-img{
     margin-right: 50px;
     align-self: left;
-    width: 400px;
+    max-width: 17em;
+    height: auto;
 }
 
 .manage-text{
     text-align: justify;
     float: right;
     overflow: hidden;
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
 
-/*--Final part--*/
-
-.sect4{
-    background: black;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    align-items: center;
-    color: #fff;
-    text-shadow: -1px 3px 2px #000000;
-    font-size: 20px;
-    text-align: center;
-}
-
-
-.all-end{
-    display: block;
-    text-align: center;
-    padding: 30px;
-}
-.contact{
-    margin: 50px;
-}
-.socials{
-    display: block;
-    text-align: center;
-    padding: 30px;
-}
-.socials a{
-    margin: 10px;
-}
-.bottom{
-    display: flex;
-    width: 100%;
-}
-.copyright{
-    display: flex;
-    padding: 20px;
-    width: 50%;
-    text-align: left;
-}
-.design{
-    padding: 20px;
-    width: 50%;
-    text-align: right;
-}
-
-/*--submit form--*/
-
-.sect5{
-    display: flex;
-    height: 100vh;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-.container{
-    width: 100%;
-    max-width: 650px;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 28px;
-    margin: 0 28px;
-    border-radius: 10px;
-    box-shadow: inset -2px 2px 2px white;
-    margin: auto;
-}
-.form-title{
-    font-size: 26px;
-    font-weight: 600;
-    text-align: center;
-    padding-bottom: 6px;
-    color: #fff;
-    box-shadow: 2px 2px 2px black;
-    border-bottom: solid 1px white;
-}
-.main-user-info{
-    display: block;
-    justify-content: space-between;
-    padding: 20px 0;
-}
-.user-input-box:nth-child(2n){
-    justify-content: end;
-}
-.user-input-box{
-    display: block;
-    width: 50%;
-    padding-bottom: 15px;
-}
-
-.user-input-box label{
-    width: 95%;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 5px 0;
-}
-.user-input-box input{
-    height: 40px;
-    width: 95%;
-    border-radius: 7px;
-    outline: none;
-    border: 1px solid gray;
-    padding: 0 10px;
-}
-.form-submit-btn input{
-    cursor: pointer;
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    font-size: 20px;
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
-    color: rgba(209, 209, 209);
-    background: #2D5A27;
-}
-.form-submit-btn{
-    margin: 40px;
-}
-.form-submit-btn input:hover{
-    background: #008A81;
-}
-
-.user-input-box textarea{
-    height: 140px;
-    padding-top: 15px;
-    width: 95%;
-    border-radius: 7px;
-    outline: none;
-    padding: 10px;
-}
 
 
 /*--BREAKPOINT--*/
 
-@media (max-width: 1200px){
-    .about-text p{
-        font-size: 25px;
-        text-shadow: -1px 3px 2px #000000;
-    }
-    .sect1 p{
-        font-size: 30px;
-    }
-}
-@media (max-width: 992px){
-    .header{
-        padding: 1.3rem 5%;
-    }
+@media screen and (max-width: 48em){
+
+    .logo img{
+        width: 11em;
     
-    .about-text p{
-        font-size: 25px;
-        text-shadow: -1px 3px 2px #000000;
-       
     }
-    
-    .sect3 h1{
-        font-size: 25px;
-    }
-
-    .ads-text{
-        width: 425px;
-        float: none;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .web-text{
-        width: 425px;
-        float: none;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .content-text{
-        width: 425px;
-        float: none;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .manage-text{
-        width: 425px;
-        float: none;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-}
-
-@media (max-width: 768px){
     .nav-icon{
         display: inline-flex;
     }
@@ -593,8 +424,18 @@ hr{
         transform: translateY(0);
 
     }
+    .partone{
+        margin-top: 1em;
+    }
+    .sect1{
+        margin: 2em;
+  
+    }
     .sect1 p{
         font-size: 20px;
+    }
+    .sect1 button{
+        background-image: linear-gradient(to bottom right, #008cff, #e100ff);
     }
     .about-text p{
         font-size: 20px;
@@ -613,5 +454,84 @@ hr{
     .user-input-box:nth-child(2n){
         justify-content: space-between;
     }
+/*---about---*/
+.img-about{
+    max-width: 10em; 
+}
 
+    .about-text p{
+        font-size: 1.15rem;
+        padding: 1em; 
+    }
+/*---services---*/
+    .img-os{
+        max-width: 10rem;
+    }
+
+    .ads{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        
+    }
+    .ads-text{
+        font-size: .8rem;
+        padding: 7%;
+    }
+    .ads-img{
+        padding: 7%;
+        max-width: 12em;
+        height: auto;
+    }
+    .web{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        
+    }
+    .web-text{
+        font-size: .8rem;
+        padding: 7%;
+    }
+    .web-img{
+        padding: 7%;
+        max-width: 12em;
+        height: auto;
+    }
+    .content{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        
+    }
+    .content-text{
+        font-size: .8rem;
+        padding: 7%;
+    }
+    .content-img{
+        padding: 7%;
+        max-width: 12em;
+        height: auto;
+    }
+    .manage{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+     
+    }
+    .manage-text{
+        font-size: .8rem;
+        padding: 7%;
+    }
+    .manage-img{
+        padding: 7%;
+        max-width: 12em;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 24em){
+    .about-text p{
+        font-size: 1.1rem;
+        padding: 1em;
+    
+    }
+    
 }
