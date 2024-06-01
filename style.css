@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    height: 95vh;
+    height: 100vh;
     background: url(Images/another\ 1.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,6 +32,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    height: 1em;
     padding: 1.3em 10%;
     display: flex;
     justify-content: space-between;
@@ -63,6 +64,7 @@ body{
     width: 180px;
     text-decoration: none;
     font-weight: 700;
+    margin: none;
 
 }
 
@@ -216,32 +218,41 @@ hr{
     justify-content: center;
 }
 .ads-items{
-    padding: 10px;
     align-items: center;
     justify-content: center;
 }
+
 .ads-head{
     display: flex;
     align-items: center;
     margin: 10px;
+    max-width: 100%;
+
 }
 .ads-head h1{
     margin-left: 10px;
 }
+.ads-pic{
+    max-width: 50%;
+    float: right;
+    
+}
 .ads-img{
-    margin-left: 50px;
-    align-self: right;
     max-width: 17em;
     height: auto;
+    padding: 3%;
 }
 
 .ads-text{
-    text-align: justify;
     float: left;
     overflow: hidden;
     max-width: 500px;
     height: auto;
 }
+.ads-text p{
+    text-align: justify;
+}
+
 
 .web{
     margin-left: 10%;
@@ -258,7 +269,6 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .web-items{
     align-items: center;
@@ -267,23 +277,32 @@ hr{
 .web-head{
     display: flex;
     align-items: center;
+    max-width: 50%;
     margin: 10px;
+    max-width: 100%;
+
 }
 .web-head h1{
     margin-left: 10px;
 }
+.web-pic{
+    max-width: 50%;
+    float: left;
+}
 .web-img{
-    margin-right: 50px;
-    align-self: left;
     max-width: 17em;
     height: auto;
+    padding: 3%;
 }
+
 .web-text{
-    text-align: justify;
     float: right;
     overflow: hidden;
     max-width: 500px;
     height: auto;
+}
+.web-text p{
+    text-align: justify;
 }
 
 .content{
@@ -309,24 +328,34 @@ hr{
 .content-head{
     display: flex;
     align-items: center;
-    text-align: left;
-    margin: 10px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+
 }
 .content-head h1{
     margin-left: 10px;
 }
+.content-pic{
+    max-width: 50%;
+    float: right;
+}
 .content-img{
-    margin-left: 50px;
-    align-self: right;
     max-width: 17em;
     height: auto;
+    padding: 3%;
 }
+
 .content-text{
-    text-align: justify;
     float: left;
     overflow: hidden;
     max-width: 500px;
     height: auto;
+
+}
+.content-text p{
+    text-align: justify;
 }
 
 .manage{
@@ -352,24 +381,34 @@ hr{
 .manage-head{
     display: flex;
     align-items: center;
-    margin: 10px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+
 }
 .manage-head h1{
     margin-left: 10px;
 }
+.manage-pic{
+    max-width: 50%;
+    float: left;
+}
 .manage-img{
-    margin-right: 50px;
-    align-self: left;
     max-width: 17em;
     height: auto;
+    padding: 3%;
 }
 
 .manage-text{
-    text-align: justify;
     float: right;
     overflow: hidden;
     max-width: 500px;
     height: auto;
+
+}
+.manage-text p{
+    text-align: justify;
 }
 
 
@@ -477,8 +516,11 @@ hr{
         font-size: .8rem;
         padding: 7%;
     }
+    .ads-pic{
+        float: none; 
+    }
     .ads-img{
-        padding: 7%;
+        padding: 15%;
         max-width: 12em;
         height: auto;
     }
@@ -492,7 +534,7 @@ hr{
         padding: 7%;
     }
     .web-img{
-        padding: 7%;
+        padding: 15%;
         max-width: 12em;
         height: auto;
     }
@@ -505,8 +547,11 @@ hr{
         font-size: .8rem;
         padding: 7%;
     }
+    .content-pic{
+        float: none; 
+    }
     .content-img{
-        padding: 7%;
+        padding: 15%;
         max-width: 12em;
         height: auto;
     }
@@ -520,7 +565,7 @@ hr{
         padding: 7%;
     }
     .manage-img{
-        padding: 7%;
+        padding: 15%;
         max-width: 12em;
         height: auto;
     }
