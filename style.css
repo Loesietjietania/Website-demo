@@ -23,7 +23,7 @@ body{
 }
 
 #banner{
-    height: 100vh;
+    height: 99vh;
     
 }
 
@@ -84,7 +84,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 98vh;
 }
 
 .sect1{
@@ -152,7 +152,7 @@ hr{
 /*---About---*/
 
 .sect2{
-    height: 100vh;
+    height: 98vh;
 }
 
 .img-about{
