@@ -500,7 +500,7 @@ hr{
 /*--Final part--*/
 
 .sect4{
-    background: black;
+    background: #2D5A27;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -520,12 +520,22 @@ hr{
     margin: 50px;
 }
 .socials{
-    display: block;
-    text-align: center;
-    padding: 30px;
+    display: flex;
+    justify-content: center;
+
 }
 .socials a{
-    margin: 10px;
+    padding-top: 0.25em;
+    margin: 0 1em;
+    color: #fff;
+    background: #2D5A27;
+    height: 2em;
+    width: 2em;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
 }
 .bottom{
     display: flex;
