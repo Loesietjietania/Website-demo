@@ -767,6 +767,19 @@ hr{
         max-width: 12em;
         height: auto;
     }
+    /*--Founder---*/
+    .founder{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        
+    }
+    .founder-text{
+        font-size: .8rem;
+        padding: 7%;
+    }
+    .founder-pic{
+        float: none; 
+    }
     /*--submit form--*/
 
 
