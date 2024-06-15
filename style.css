@@ -152,7 +152,7 @@ hr{
 /*---About---*/
 
 .sect2{
-    height: 98vh;
+    height: auto;
 }
 
 .img-about{
@@ -177,12 +177,51 @@ hr{
   }
 
 .about-text p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 20px;
     color: #fff;
     font-family: 'helvetica';
     text-shadow: -1px 3px 2px #000000;
    
+}
+/*---Why choose us---*/
+.sectwhy{
+    color: #fff;
+    text-shadow: -1px 3px 2px #000000;
+    font-size: 1.25rem;
+    box-sizing: none;
+}
+
+.whytext{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0,37);
+    align-items: center;
+    justify-content: center;
+}
+
+.head1{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    max-width: 100%;
+
+}
+.head1 h1{
+    margin-left: 10px;
+}
+
+.text1{
+    overflow: hidden;
+    height: auto;
 }
 
 /*---Our services---*/
@@ -410,6 +449,7 @@ hr{
 .manage-text p{
     text-align: justify;
 }
+
 /*---founder---*/
 .sect6{
     color: #fff;
@@ -475,6 +515,7 @@ hr{
 
 .sect5{
     display: flex;
+    height: 100vh;
     justify-content: space-evenly;
     align-items: center;
     
@@ -487,10 +528,10 @@ hr{
     margin: 0 28px;
     border-radius: 10px;
     box-shadow: inset -2px 2px 2px white;
-    margin: 50px;
+    margin: auto;
 }
 .form-title{
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 600;
     text-align: center;
     padding-bottom: 6px;
@@ -515,9 +556,9 @@ hr{
 .user-input-box label{
     width: 95%;
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
-    margin: 3px 0;
+    margin: 5px 0;
 }
 .user-input-box input{
     height: 40px;
@@ -595,6 +636,10 @@ hr{
     justify-content: center;
     text-decoration: none;
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+
+.socials a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2), inset -4px -4px 6px -1px rgba(255,255,255,0.7),-0.5px -0.5px 0px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0,0.05);
 }
 .bottom{
     display: flex;
@@ -693,18 +738,25 @@ hr{
     }
 /*---about---*/
 .img-about{
-    max-width: 9em; 
+    max-width: 10em; 
 }
 
     .about-text p{
-        font-size: 0.99rem;
-        padding: 0.5em; 
+        font-size: 0.8rem;
+        padding: .5em; 
     }
-/*---services---*/
-    .img-os{
-        max-width: 10rem;
-    }
+/*---why choose us---*/
 
+.whytext{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;    
+}
+.text1{
+    font-size: .8rem;
+    padding: 7%;
+}
+
+/*---services---*/
     .ads{
         margin-left: 1.25rem;
         margin-right: 1.25rem;
@@ -767,7 +819,7 @@ hr{
         max-width: 12em;
         height: auto;
     }
-    /*--Founder---*/
+      /*--Founder--*/
     .founder{
         margin-left: 1.25rem;
         margin-right: 1.25rem;
@@ -777,11 +829,6 @@ hr{
         font-size: .8rem;
         padding: 7%;
     }
-    .founder-pic{
-        float: none; 
-    }
-    /*--submit form--*/
-
 
     /*--submit form--*/
 
@@ -789,12 +836,6 @@ hr{
     .container{
         max-width: 20.6em;
     
-    }
-    /*--Final part--*/
-
-    .bottom{
-        font-size: .5em;
-
     }
     .form-title{
         font-size: 1em;
@@ -808,4 +849,18 @@ hr{
     .form-submit-btn{
         margin: 0;
     }
+    /*--Final part--*/
+
+    .bottom{
+        font-size: .5em;
+        width: 100%;
+    }
+    .copyright{
+        width: 50%;
+    }
+    .design{
+        width: 50%;
+    }
+    
+
 }
