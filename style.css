@@ -516,7 +516,6 @@ hr{
 
 .sect5{
     display: flex;
-    height: 100vh;
     justify-content: space-evenly;
     align-items: center;
     
@@ -529,7 +528,7 @@ hr{
     margin: 0 28px;
     border-radius: 10px;
     box-shadow: inset -2px 2px 2px white;
-    margin: auto;
+    margin: 50px;
 }
 .form-title{
     font-size: 26px;
