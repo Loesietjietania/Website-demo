@@ -120,7 +120,7 @@ body{
     text-decoration: none;
 }
 
-/*---
+
 .sect1 button{
     font-size: 1.1rem;
     margin-top: 5%;
@@ -149,7 +149,7 @@ body{
     z-index: 0;
     box-shadow: 40px 0 100px #008cff, -40px 0 100px #e100ff;
 } 
---*/
+/*---
 .butt button {
     --glow-color: rgb(217, 176, 255);
     --glow-spread-color: rgba(191, 123, 255, 0.781);
@@ -203,6 +203,7 @@ body{
                 0 0 2.5em 2em var(--glow-spread-color),
                 inset 0 0 0.5em 0.25em var(--glow-color);
 }
+--*/
 
 hr{
     margin-right: 10%;
