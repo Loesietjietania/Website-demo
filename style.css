@@ -787,6 +787,9 @@ hr{
         text-shadow: -1px 3px 2px #000000;
        
     }
+    .paragraph1 img{
+        width: 20rem;
+    }
 
     .container{
         min-width: 280px;
