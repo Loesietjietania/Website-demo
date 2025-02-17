@@ -597,6 +597,20 @@ table, th, td{
         max-width: 12em;
         height: auto;
     }
+        /*--Blog--*/
+    .blog-pic img{
+        padding: 0;
+        max-width: 19em;
+        height: auto;
+    }
+    .blog-pic{
+        font-size: .8rem;
+        padding: 7%;
+    }
+    .blog-pic span{
+        font-size: .8rem;
+        padding-top: 7%;
+    }
 
     /*-- Table--*/
 
